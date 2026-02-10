@@ -135,7 +135,7 @@ const HomePage = () => {
                         initial={{ pathLength: 0 }}
                         whileInView={{ pathLength: 1 }}
                         transition={{
-                          duration: 1.25,
+                          duration: 0.75,
                           ease: "easeInOut",
                         }}
                         d="M149.293 1C106.854 16.8908 6.08202 7.17705 1.23654 43.3756C-2.10604 68.3466 29.5633 100.2652 180.700 99.7518C280.814 100.2384 316.298 70.689 275.761 38.0785C230.14 1.37835 97.0503 24.4575 52.9384 1"
@@ -183,16 +183,16 @@ const HomePage = () => {
                     manualMode={false}
                     blurAmount={5}
                     borderColor="yellow"
-                    animationDuration={2}
-                    pauseBetweenAnimations={1.5}
+                    animationDuration={0.65}
+                    pauseBetweenAnimations={0.5}
                   />
                 </h2>
                 <div className="w-full mb-6 justify-center">
                   <Image
                     src="/image/bmp-logo.jpg"
                     alt="BMP Logo"
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     className="w-md h-auto object-cover"
                   />
                 </div>
@@ -205,7 +205,7 @@ const HomePage = () => {
                 <div className="p-6 rounded-lg shadow-lg bg-black/0 text-lg">
                   <p className="mt-4 text-gray-300 justify-center text-justify">
                     <span className=" font-bold text-ratih-gold italic">
-                      RATIH Creative
+                      Bonga Media Productions
                     </span>{" "}
                     Merupakan Sebuah Production House dengan tim sederhana yang
                     bergerak di bidang jasa Fotografi, Videografi dan Desain
