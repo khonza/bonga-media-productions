@@ -203,22 +203,24 @@ const HomePage = () => {
             <ScrollReveal delay={0.4}>
               <div className="animate-fade-in">
                 <div className="p-6 rounded-lg shadow-lg bg-black/0 text-lg">
-                  <p className="mt-4 text-gray-300 justify-center text-justify">
-                    <span className=" font-bold text-ratih-gold italic">
-                      Bonga Media Productions
-                    </span>{" "}
-                    Merupakan Sebuah Production House dengan tim sederhana yang
-                    bergerak di bidang jasa Fotografi, Videografi dan Desain
-                    Grafis. Terbentuk sejak{" "}
-                    <span className="text-ratih-gold">November 2021.</span>{" "}
-                    Perlu diketahui, kami ahli dan handal soal menjepret kamera,
-                    disiplin, dan banyak Gerakan tambahan di dalamnya.
+                   <p className="mt-4 text-gray-300 justify-center text-justify">
+                    <span className="text-ratih-gold">In 2010</span>, in the vibrant heart of Gugulethu, Cape Town, a young visionary named Bonga Silimela 
+                    launched <span className="text-ratih-gold">Bonga Media Production</span> with nothing but a camera, unwavering passion, and a bold dream. 
+                    Starting small by capturing the raw beauty of local events—weddings filled with joy, dignified 
+                    funerals honoring loved ones, sacred imigidi ceremonies, proud graduations, and lively parties—he 
+                    turned everyday moments into timeless stories. What began as a one-man mission rooted in community 
+                    soon grew into a trusted name, proving that greatness often starts from humble beginnings and a deep 
+                    love for the people and culture around you.{" "}
                   </p>
                   <p className="mt-4 text-gray-300 text-justify">
-                    Berdiri dari kolaborasi kreativitas dan hobi yang sejalan,
-                    membentuk suatu TIM yang tak mengenal lelah seperti filosofi
-                    nama tim ini yaitu RATIH, dengan wilayah kerja yaitu
-                    Surabaya, Malang dan Madiun.
+                    Today, Bonga Media Production stands as a beacon of excellence in event videography and photography 
+                    across Cape Town and beyond. Having documented countless milestones over more than a decade, the 
+                    company has built a legacy of cinematic quality, emotional depth, and respectful storytelling—especially 
+                    in culturally significant moments that matter most to families and communities. Looking ahead, 
+                    Bonga's vision remains clear and inspiring: to elevate local talent onto commercial stages, create 
+                    opportunities for emerging creatives in Gugulethu and the Western Cape, and show the world the 
+                    richness of African celebrations through world-class media. With every frame captured, BMP continues 
+                    to chase that original dream—turning local stories into legacies that inspire generations.
                   </p>
                 </div>
               </div>
