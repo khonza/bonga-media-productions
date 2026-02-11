@@ -47,25 +47,28 @@ const services = [
       "High-quality video production for commercials, events, documentaries, and social media content.",
   },
   {
-    title: "Graphic Design",
+    title: "Sound Hire",
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-12 w-12"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-      >
-        <path d="M12 3v18" />
-        <rect width="6" height="6" x="15" y="15" rx="1" />
-        <rect width="6" height="6" x="3" y="15" rx="1" />
-        <rect width="6" height="6" x="3" y="3" rx="1" />
-        <rect width="6" height="6" x="15" y="3" rx="1" />
+      <svg fill="#ffc727" height="46" width="47" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier"> 
+          <g> 
+            <g> 
+              <g> 
+                <path d="M490.667,0h-128c-11.797,0-21.333,9.557-21.333,21.333V192H170.667V21.333C170.667,9.557,161.131,0,149.333,0h-128 C9.536,0,0,9.557,0,21.333v469.333C0,502.443,9.536,512,21.333,512h128h213.333h128c11.797,0,21.333-9.557,21.333-21.333V21.333 C512,9.557,502.464,0,490.667,0z M128,213.333v256H42.667V42.667H128V213.333z M234.667,256h42.667 c11.797,0,21.333,9.557,21.333,21.333s-9.536,21.333-21.333,21.333h-42.667c-11.797,0-21.333-9.557-21.333-21.333 S222.869,256,234.667,256z M256,448c-35.285,0-64-28.715-64-64c0-35.285,28.715-64,64-64s64,28.715,64,64 C320,419.285,291.285,448,256,448z M469.333,469.333H384v-256V42.667h85.333V469.333z"></path> 
+                <path d="M256,362.667c-11.776,0-21.333,9.579-21.333,21.333c0,11.755,9.557,21.333,21.333,21.333s21.333-9.579,21.333-21.333 C277.333,372.245,267.776,362.667,256,362.667z"></path> <path d="M85.333,213.333c11.797,0,21.333-9.557,21.333-21.333v-85.333c0-11.776-9.536-21.333-21.333-21.333 C73.536,85.333,64,94.891,64,106.667V192C64,203.776,73.536,213.333,85.333,213.333z"></path> 
+                <path d="M85.333,426.667c11.797,0,21.333-9.557,21.333-21.333V320c0-11.776-9.536-21.333-21.333-21.333 C73.536,298.667,64,308.224,64,320v85.333C64,417.109,73.536,426.667,85.333,426.667z"></path> 
+                <path d="M426.667,213.333c11.797,0,21.333-9.557,21.333-21.333v-85.333c0-11.776-9.536-21.333-21.333-21.333 c-11.797,0-21.333,9.557-21.333,21.333V192C405.333,203.776,414.869,213.333,426.667,213.333z"></path> 
+                <path d="M426.667,426.667c11.797,0,21.333-9.557,21.333-21.333V320c0-11.776-9.536-21.333-21.333-21.333 c-11.797,0-21.333,9.557-21.333,21.333v85.333C405.333,417.109,414.869,426.667,426.667,426.667z"></path> 
+              </g> 
+            </g> 
+          </g>
+        </g>
       </svg>
     ),
     description:
-      "Creative graphic design solutions for branding, marketing materials, social media, and more.",
+      "A range of high-quality sound systems for events, PA systems for large audiences for hire.",
   },
 ];
 
@@ -74,29 +77,29 @@ const gradientColors = ["#FFC727", "#cd9900", "#ffffff", "#cd9900", "#FFC727"];
 const HomePage = () => {
   const showcaseCards = [
     {
-      title: "Bonga Media Production",
-      src: "/",
+      title: "Funeral: Andile Mani",
+      src: "/image/funeral-andile-mani.jpg",
     },
     {
-      title: "Festival Dongkrek 2024",
-      src: "/image/gmbr2.png",
+      title: "Matric Dance 2025: Andikwazi Sana",
+      src: "/image/md-andimazi-lomtana.jpg",
     },
     {
-      title: "Promosi UMKM 2024",
-      src: "/image/gmbr3.png",
+      title: "Wedding: Mr & Mrs Andibazi",
+      src: "/image/wedding-andibazi.jpg",
     },
     {
-      title: "Commercial Videography",
-      src: "/image/TEST1.jpeg",
+      title: "uMaziso ka Yiva",
+      src: "/image/umaziso-ka-yiva.jpg",
       
     },
     {
-      title: "Portrait Photography",
-      src: "/image/O2.JPG",
+      title: "uMgidi Ka Aviwe",
+      src: "/image/umgidi-ka-aviwe.jpg",
     },
     {
-      title: "Documentary Film",
-      src: "/image/TEST2.jpeg",
+      title: "Funeral: Andimazi Naye",
+      src: "/image/funeral-andimazi-naye.jpg",
     },
   ];
 
@@ -236,11 +239,11 @@ const HomePage = () => {
         <div className="w-full px-4 md:px-6 relative z-10">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <h1 className="text-xl md:text-md flex justify-center font-bold mb-2">
-                <SparklesText>Sedikit Jepretan</SparklesText>
+              <h1 className="text-xl md:text-md text-ratih-gold flex justify-center font-bold mb-2">
+                <SparklesText>Moments...</SparklesText>
               </h1>
               <h1 className="text-5xl md:text-xl text-ratih-gold flex justify-center font-bold mx-auto">
-                <SparklesText>RATIH</SparklesText>
+                <SparklesText>Captured by BMP</SparklesText>
               </h1>
             </div>
           </ScrollReveal>
@@ -260,8 +263,7 @@ const HomePage = () => {
                 Our Services
               </h2>
               <p className="text-xl text-gray-300 mx-auto">
-                We provide professional services in photography, videography,
-                and graphic design.
+                We provide professional services in photography, videography, sound systems and many more.
               </p>
             </div>
           </ScrollReveal>
