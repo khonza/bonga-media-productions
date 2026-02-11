@@ -290,18 +290,17 @@ const HomePage = () => {
           <ScrollReveal>
             <div className="animate-fade-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-                Ready to Work With Us?
+                Let’s Capture Your Story
               </h2>
               <p className="text-xl text-gray-300 mb-8 mx-auto">
-                Let collaborate on your next project and bring your creative
-                vision to life.
+                Ready to turn your special day into timeless footage and photos? Drop us a message—we’d love to hear about your event!
               </p>
               <div className="transform transition-transform duration-300 hover:scale-105 active:scale-95">
                 <a
-                  href="/contact"
+                  href="#get-in-touch"
                   className="bg-ratih-gold hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-lg transition-colors duration-300"
                 >
-                  Contact Us
+                  Get in Touch
                 </a>
               </div>
             </div>
