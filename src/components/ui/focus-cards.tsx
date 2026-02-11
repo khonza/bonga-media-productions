@@ -32,10 +32,8 @@ export const Card = React.memo(
       <img
         src={card.src}
         alt={card.title}
-        fill
         className="object-cover"
         sizes="(max-width: 768px) 100vw, 33vw"
-        priority={index < 3}
       />
       <div
         className={cn(
