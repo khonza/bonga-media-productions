@@ -14,19 +14,17 @@ const Footer = () => {
             </div>
             <div className="md:w-1/2">
               <h1 className="md:w-1/2">
-                <span className=" text-white font-bold text-base">
-                  Bonga Media Produtions (BMP)
-                </span>
-                <span className="text-ratih-gold text-base"> Creative</span>
+                <span className="text-ratih-gold text-base">Bonga Media Produtions (BMP)</span>
               </h1>
             </div>
             <p className="mt-4 text-gray-400 max-w-md">
-              A production house with a simple team working in photography,
-              videography, etc. Founded in November 2015.
+              A media production house from Cape Town with a professional team working in photography,
+              videography and more. Founded in 2010.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/silimelabonga/"
+                target="_blank"
                 className="text-gray-400 hover:text-ratih-gold transition-colors duration-300 px-2"
               >
                 <svg
@@ -47,6 +45,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://twitter.com"
+                target="_blank"
                 className="text-gray-400 hover:text-ratih-gold transition-colors duration-300 px-2"
               >
                 <svg
@@ -64,7 +63,8 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/bonga.silimela"
+                target="_blank"
                 className="text-gray-400 hover:text-ratih-gold transition-colors duration-300 px-2"
               >
                 <svg
@@ -79,6 +79,23 @@ const Footer = () => {
                   strokeLinejoin="round"
                 >
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </a>
+              <a 
+                target="_blank" 
+                href="https://wa.me/27797092749"
+                className="text-gray-400 hover:text-ratih-gold transition-colors duration-300 px-2">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  className="h-5 w-6 mt-0.5 text-ratih-gold"
+                  enable-background="new 0 0 24 24" 
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#e0e3ea"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  id="whatsapp">
+                  <path d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"></path>
                 </svg>
               </a>
             </div>
@@ -99,7 +116,7 @@ const Footer = () => {
               </li>
               <li className="py-1">
                 <Link
-                  href="/team"
+                  href="#our-team"
                   className="text-gray-400 hover:text-ratih-gold transition-colors duration-300"
                 >
                   Our Team
@@ -107,15 +124,15 @@ const Footer = () => {
               </li>
               <li className="py-1">
                 <Link
-                  href="/articles"
+                  href="#Tributes"
                   className="text-gray-400 hover:text-ratih-gold transition-colors duration-300"
                 >
-                  Articles
+                  Tributes
                 </Link>
               </li>
               <li className="py-1">
                 <Link
-                  href="/contact"
+                  href="#contact-us"
                   className="text-gray-400 hover:text-ratih-gold transition-colors duration-300"
                 >
                   Contact Us
@@ -158,12 +175,12 @@ const Footer = () => {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                <span className="px-2"><a href="tel:+6281234567890">+62 812 3456 7890</a></span>
+                <span className="px-2"><a href="tel:+27797092749">+27 79 709 2749</a></span>
               </li>
               <li className="flex items-start space-x-3 py-1">
-                <svg
+                <svg 
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mt-0.5 text-ratih-gold"
+                  className="h-5 w-6 mt-0.5 text-ratih-gold"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -171,10 +188,27 @@ const Footer = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                  <polyline points="22,6 12,13 2,6" />
+                  <path fill="#ffc727" d="M88 23H12c-1.1 0-2 .9-2 2v50c0 1.1.9 2 2 2h76c1.1 0 2-.9 2-2V25c0-1.1-.9-2-2-2zm-4.8 4L50 60.2 16.8 27h66.4zM14 29.8 34.2 50 14 70.2V29.8zM16.9 73 37 52.9l11.6 11.6c.8.8 2 .8 2.8 0L63 52.9 83.1 73H16.9zM86 70.2 65.8 50 86 29.8v40.4z"></path>
+                  <path d="M804-510v1684H-980V-510H804m8-8H-988v1700H812V-518z"></path>
                 </svg>
                 <span className="px-2"><a href="mailto:info@bongamediaproductions.co.za">info@bongamediaproductions.co.za</a></span>
+              </li>
+              <li className="flex items-start space-x-3 py-1">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  className="h-5 w-6 mt-0.5 text-ratih-gold"
+                  enable-background="new 0 0 24 24" 
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  id="whatsapp">
+                  <path d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"></path>
+                </svg>
+                <span className="px-2">
+                  <a target="_blank" href="https://wa.me/27797092749">WhatsApp Me</a>
+                </span>
               </li>
             </ul>
           </div>
