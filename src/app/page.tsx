@@ -108,11 +108,9 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="w-full min-h-screen px-0 mx-0 relative h-[100vh] flex items-center justify-center">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover sm:bg-center bg-no-repeat md:bg-top" 
           style={{
             backgroundImage: "url('/bmp-header.jpeg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
             backgroundAttachment: "fixed",
           }}
         />

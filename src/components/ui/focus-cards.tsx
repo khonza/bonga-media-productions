@@ -32,7 +32,7 @@ export const Card = React.memo(
       <img
         src={card.src}
         alt={card.title}
-        className="object-cover"
+        className="object-cover min-h-full"
         sizes="(max-width: 768px) 100vw, 33vw"
       />
       <div
