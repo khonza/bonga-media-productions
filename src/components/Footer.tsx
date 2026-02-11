@@ -180,8 +180,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} <a href="https://www.instagram.com/khonzasomag" target="_blank">@KhonzaSomaG</a>. All rights reserved.</p>
+        <div className="mt-12 pt-6 border-t border-gray-800 text-center text-gray-500 text-sm" suppressHydrationWarning>
+          <p>Designed and Developed by <a href="https://www.instagram.com/khonzasomag" target="_blank">KhonzaSomaG</a> &copy; {new Date().getFullYear()}.</p>
         </div>
       </div>
     </footer>
