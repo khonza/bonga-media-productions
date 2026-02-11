@@ -4,7 +4,7 @@ import Image from 'next/image';
 const BmpLogo = () => {
   return (
     <div className="flex items-center">
-      <Image src='image/bmp-logo.jpg' alt='BMP Logo' />
+      <img src='image/bmp-logo.jpg' alt='BMP Logo' />
     </div>
   ); 
 };

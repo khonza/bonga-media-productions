@@ -92,7 +92,7 @@ const Articles: React.FC = () => {
                 key={article.id}
                 className="bg-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
               >
-                <Image
+                <img
                   src={article.image}
                   alt={article.title}
                   width={400}

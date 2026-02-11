@@ -72,7 +72,7 @@ const TeamPage = () => {
                 key={index}
                 className="bg-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
               >
-                <Image
+                <img
                   src={member.image}
                   alt={member.name}
                   width={400}
