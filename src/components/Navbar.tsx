@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 import Link from "next/link";
-import BmpLogo from "./BmpLogo";
 import TextBorderAnimation from "./animata/text/text-border-animation";
 
 const Navbar = () => {
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 overflow-visible">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <img src="image/bmp-logo.jpg" alt="Bonga Media Production Logo" style={{width:"45px"}} />
+            <Image src="image/bmp-logo.jpg" alt="Bonga Media Production Logo" style={{width:"45px"}} />
           </Link>
 
           {/* Desktop Menu */}
