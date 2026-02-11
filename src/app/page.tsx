@@ -213,15 +213,17 @@ const HomePage = () => {
                     love for the people and culture around you.{" "}
                   </p>
                   <p className="mt-4 text-gray-300 text-justify">
-                    Today, Bonga Media Production stands as a beacon of excellence in event videography and photography 
-                    across Cape Town and beyond. Having documented countless milestones over more than a decade, the 
+                    Today, Bonga Media Production stands as a <span className="text-ratih-gold">beacon of excellence</span> in event videography and photography 
+                    across <span className="text-ratih-gold">Cape Town and beyond</span>.</p> 
+                  {/* <p>
+                    Having documented countless milestones over more than a decade, the 
                     company has built a legacy of cinematic quality, emotional depth, and respectful storytelling—especially 
                     in culturally significant moments that matter most to families and communities. Looking ahead, 
                     Bonga's vision remains clear and inspiring: to elevate local talent onto commercial stages, create 
                     opportunities for emerging creatives in Gugulethu and the Western Cape, and show the world the 
                     richness of African celebrations through world-class media. With every frame captured, BMP continues 
                     to chase that original dream—turning local stories into legacies that inspire generations.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </ScrollReveal>
