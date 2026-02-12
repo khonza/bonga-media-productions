@@ -12,15 +12,11 @@ const Footer = () => {
             <div className="md:w-1/2">
               <BmpLogo />
             </div>
-            <div className="md:w-1/2">
-              <h1 className="md:w-1/2">
+            <div className="md:w-full">
+              <h1 className="md:w-full">
                 <span className="text-ratih-gold text-base">Bonga Media Produtions (BMP)</span>
               </h1>
             </div>
-            <p className="mt-4 text-gray-400 max-w-md">
-              A media production house from Cape Town with a professional team working in photography,
-              videography and more. Founded in 2010.
-            </p>
             <div className="mt-6 flex space-x-4">
               <a
                 href="https://www.instagram.com/silimelabonga/"
@@ -178,9 +174,9 @@ const Footer = () => {
                 <span className="px-2"><a href="tel:+27797092749">+27 79 709 2749</a></span>
               </li>
               <li className="flex items-start space-x-3 py-1">
-                <svg 
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-6 mt-0.5 text-ratih-gold"
+                  className="h-5 w-5 mt-0.5 text-ratih-gold"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -188,10 +184,10 @@ const Footer = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path fill="#ffc727" d="M88 23H12c-1.1 0-2 .9-2 2v50c0 1.1.9 2 2 2h76c1.1 0 2-.9 2-2V25c0-1.1-.9-2-2-2zm-4.8 4L50 60.2 16.8 27h66.4zM14 29.8 34.2 50 14 70.2V29.8zM16.9 73 37 52.9l11.6 11.6c.8.8 2 .8 2.8 0L63 52.9 83.1 73H16.9zM86 70.2 65.8 50 86 29.8v40.4z"></path>
-                  <path d="M804-510v1684H-980V-510H804m8-8H-988v1700H812V-518z"></path>
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
                 </svg>
-                <span className="px-2"><a href="mailto:info@bongamediaproductions.co.za">info@bongamediaproductions.co.za</a></span>
+                <span className="px-2"><a href="mailto:info@bongamediaproductions.co.za?s=Hello">info@bongamediapromotions.co.za</a></span>
               </li>
               <li className="flex items-start space-x-3 py-1">
                 <svg 
